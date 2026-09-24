@@ -320,7 +320,6 @@ MonoBehaviour:
   eventEmitters:
     musicMenu: {fileID: 110158806593295546}
     music: {fileID: 5158617837186310920}
-    music02: {fileID: 0}
     musicBoss: {fileID: 3257842776572977270}
     musicPause: {fileID: 4860983653683116548}
     ambiance: {fileID: 4318290237544591130}
@@ -467,18 +466,18 @@ MonoBehaviour:
     Path: event:/Enemies/Enemy_Die
   stingerGameOver:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 354697098
+      Data2: 1261114290
+      Data3: 422502066
+      Data4: -971927822
+    Path: event:/Stingers/You died
   stingerKeyPickup:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 319677018
+      Data2: 1124435088
+      Data3: 567822502
+      Data4: -1139675681
+    Path: event:/Stingers/pick up key
   stingerWeaponPickup:
     Guid:
       Data1: 0
@@ -599,11 +598,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1374870650
+      Data2: 1226918635
+      Data3: -607900742
+      Data4: 2068753516
+    Path: event:/Music/Menu music
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
