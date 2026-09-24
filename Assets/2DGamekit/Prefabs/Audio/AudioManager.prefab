@@ -173,11 +173,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1516798624
+      Data2: 1197721717
+      Data3: -368873291
+      Data4: -1966203201
+    Path: event:/Music/Overworld - horizontal
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -185,7 +185,11 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   NonRigidbodyVelocity: 0
-  Params: []
+  Params:
+  - Name: Progression
+    Value: 0
+  - Name: pick up key
+    Value: 0
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
